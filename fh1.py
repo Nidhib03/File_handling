@@ -48,8 +48,9 @@ print("Current working directory:", cwd)
 # Get the list of all files and directories in the root directory
 import os
 
-path = "/"
+# path = "/"
+path = "/home/rao/Documents/pyPro"
 dir_list = os.listdir(path)
 
-print("Files and directories in '", path, "' :")
-print(dir_list)
+print(f"Files and directories in {path}:")
+print(len(dir_list), dir_list)

@@ -1,12 +1,12 @@
 
 # Python program to change the current working directory
-# import os
-# def current_path():
-# 	print("Current working directory before", os.getcwd())
-# 	print()
-# current_path()
-# os.chdir('/home/rao/Documents/pyPro/v_env')
-# print("Changed directory: ",os.getcwd())
+import os
+def current_path():
+	print("Current working directory before", os.getcwd())
+	print()
+current_path()
+os.chdir('/home/rao/Documents/pyPro/v_env')
+print("Changed directory: ",os.getcwd())
 
 
 # # Python program to explain os.mkdir() method

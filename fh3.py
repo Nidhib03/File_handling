@@ -1,12 +1,12 @@
 # Deleting Directory or Files using Python
 # Python program to explain os.remove() method
-# import os
+import os
 
-# file = 'file.txt'	
-# location = "/home/rao/Documents/pyPro"
-# path = os.path.join(location, file)
+file = 'file.txt'	
+location = "/home/rao/Documents/pyPro"
+path = os.path.join(location, file)
 
-# os.remove(path)
+os.remove(path)
 
 
 
